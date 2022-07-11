@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="style.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Регистрация</title>
+  </head>
+  <body>
+    <div class="auth">
+      <h1 class="auth-title">Регистрация</h1>
+      <form action="#" method="post">
+        <div class="form-group">
+          <input
+            class="input"
+            type="text"
+            name="name"
+            placeholder="Ваше полное имя"
+          />
+        </div>
+
+        <div class="form-group">
+          <input
+            class="input"
+            type="e-mail"
+            name="e-mail"
+            placeholder="Ваш e-mail"
+          />
+        </div>
+
+        <div class="form-group">
+          <input
+            class="input"
+            type="tel"
+            name="tel"
+            placeholder="Ваш номер телефона"
+          />
+        </div>
+
+        <div class="form-group">
+          <input
+            class="input"
+            type="password"
+            name="password"
+            placeholder="Ваш пароль"
+          />
+        </div>
+
+        <div class="form-group">
+          <input
+            class="input"
+            type="password"
+            name="password-confirm"
+            placeholder="Подтвердите пароль"
+          />
+        </div>
+
+        <div class="form-group">
+          <select class="select" name="city">
+            <option value="riga">Минск</option>
+            <option value="rim">Рим</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <input type="checkbox" name="rules" id="rules" />
+          <label for="rules">Согласен на обработку персональных данных</label>
+        </div>
+
+        <button class="btn" type="sibmit">Готово</button>
+        <!-- <input class="btn" type="sibmit" value="Готово" /> -->
+      </form>
+    </div>
+  </body>
+</html>
